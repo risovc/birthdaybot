@@ -11,11 +11,14 @@ Send Birthday reminders using the google appscript and twillio API
 
 4. Go to "Project Settings" (the gear icon ⚙️ on the left) >> Under "Script Properties", click "Add script property" >> Add the following three properties:
    
-//    - Property Name: TWILIO_ACCOUNT_SID   | Value: Your Account SID 
-//    - Property Name: TWILIO_AUTH_TOKEN    | Value: Your Auth Token
-//    - Property Name: TWILIO_PHONE_NUMBER  | Value: Your Twilio Phone Number 
+    - Property Name: TWILIO_ACCOUNT_SID   | Value: Your Account SID 
+
+    - Property Name: TWILIO_AUTH_TOKEN    | Value: Your Auth Token
+
+    - Property Name: TWILIO_PHONE_NUMBER  | Value: Your Twilio Phone Number 
 
 5. Set Up a Daily Trigger
+
 
 To have the script run automatically every day, you need to set up a trigger:
 
