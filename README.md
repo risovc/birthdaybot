@@ -20,22 +20,20 @@ Send Birthday reminders using the google appscript and twillio API
 5. Set Up a Daily Trigger
 
 
-To have the script run automatically every day, you need to set up a trigger:
+   To have the script run automatically every day, you need to set up a trigger:
 
-In the Apps Script editor, click on the Triggers icon (it looks like a clock).
+   In the Apps Script editor, click on the Triggers icon (it looks like a clock).
 
-Click the + Add Trigger button.
+   Click the + Add Trigger button. Configure the trigger as follows:
 
-Configure the trigger as follows:
+      Function to run: sendBirthdayWishes
 
-Function to run: sendBirthdayWishes
+      Deployment: Head
 
-Deployment: Head
+      Event source: Time-driven
 
-Event source: Time-driven
+      Type of time-based trigger: Day timer
 
-Type of time-based trigger: Day timer
-
-Time of day: Select a time that works for you (e.g., 9am to 10am).
+      Time of day: Select a time that works for you (e.g., 9am to 10am).
 
 Click Save.
