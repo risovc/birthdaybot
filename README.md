@@ -7,7 +7,7 @@ Send Birthday reminders using the google appscript and twillio API
 
 2. Create a Google Sheet you can copy this [template](https://docs.google.com/spreadsheets/d/1RTt0oHD70RjzzAXwoWVAKz2EjElI4bNg6GQ9hb3WnrI/edit?usp=sharing)
 
-3. copy paste the appscript.gs file in the copied google sheet. To do so with your Google Sheet open, go to Extensions > Apps Script. This will open a new tab with the script editor.
+3. Copy paste the appscript.gs file in the copied google sheet. To do so with your Google sheet open, go to Extensions > Apps Script. This will open a new tab with the script editor.
 
 4. Go to "Project Settings" (the gear icon ⚙️ on the left) >> Under "Script Properties", click "Add script property" >> Add the following three properties:
    
